@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+/* nav */
+ .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .nav-con {
+  border: none;
+ }
+/* logo */
+.logo-con {
+  display: flex;
+  align-items: center;
+}
+.school {
+  font-size: 32px;
+  font-weight: 700;    
+}
+/* anchor */
+.nav {
+  display: flex;
+  gap: 32px;
+}
+.nav > a {
+  text-decoration: none;
+}
+.t1 {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+}
+.t2 {
+  color: skyblue;
+  font-weight: bold;
+  font-size: 20px;
+}
+.t3 {
+  color: rgba(5, 212, 223, 1);
+  font-weight: bold;
+  font-size: 20px;
+}
+.t4 {
+  color: rgba(93, 88, 239, 1);
+  font-weight: bold;
+  font-size: 20px;
+}
+/* button */
+.nav-btn {
+  width: 197px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: orange;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+}
+.menu {
+  display: none;
+}
