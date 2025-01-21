@@ -195,8 +195,57 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 60px;
 }
 .arrow-img {
   width: 60px;
   height: 60px;
+}
+
+/* footer  */
+.blue {
+  background-color: rgba(1, 172, 253, 1);
+}
+/* sponsors */
+.sponsors-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 32px;
+}
+/* about */
+.about-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.about-list {
+  list-style: none;
+  color: white;
+  font-weight: 500px;
+  font-size: 20px;
+}
+/* logo */
+.foot-con {
+  display: flex;
+  justify-content: space-between;
+  padding: 123px 228px 174px 140px;
+}
+.footer-logo-title {
+  margin-top: 0px;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+}
+.footer-con {
+  display: flex;
+  gap: 10px;
+}
+.footer-png {
+  margin-top: 20px;
+}
+.footer-para {
+  font-size: 20px;
+  color: white;
+  width: 399px;
 }
