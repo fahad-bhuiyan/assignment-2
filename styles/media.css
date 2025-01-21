@@ -51,4 +51,37 @@
     .arrows {
         display: none;
     }
+    /* footer */
+    .foot-con {
+        flex-direction: column;
+        padding: 60px 0px 60px 20px;
+    }
+    /* story */
+    .main-img {
+        display: none;
+    }
+    .more-imgs {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 11.3px;
+    } 
+    .btn1 {
+        display: none;
+    }   
+    .btn-1 {
+        top: 3083px;
+        right: 210px;
+    } 
+    .btn-2 {
+        top: 3397px;
+        right: 210px;
+    }
+    .btn-3 {
+        top: 3717px;
+        right: 210px;
+    }
+    .btn-4 {
+        top: 4031px;
+        right: 220px;
+    }
+
 }

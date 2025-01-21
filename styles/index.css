@@ -7,6 +7,16 @@
   font-style: normal;
 }
 
+/* raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.date {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* nav */
 
 /* navbar section */
@@ -202,7 +212,152 @@
   height: 60px;
 }
 
-/* footer  */
+/* memories */
+.yellow {
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 218, 153, 1), rgba(255, 212, 137, 1));
+}
+.memories-text {
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 80px;
+}
+/* main */
+.main-img  {
+  width: 540.1px;
+  height: 630px;
+  border: 0.3px solid rgb(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 16px;
+}
+.image1 {
+  border-radius: 16px 16px 0px 0px;
+}
+.btn1 {
+  width: 174px;
+  height: 47px;
+  font-weight: 500;
+  border-radius: 47.9px;
+  color: white;
+  background-color: rgba(60, 216, 232, 1);
+
+  position: absolute;
+  top: 2050px;
+}
+.main-info {
+  padding: 58px 38px 34px 38px;
+}
+.main-img-ttl {
+  font-size: 24px;
+  font-weight: bold;
+}
+.main-img-content {
+  font-size: 15.3px;
+  font-weight: 500;
+}
+
+/* more */
+.memo-img-con {
+  display: flex;
+  gap: 19.17px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.more-imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19.17px;
+}
+.img {
+  width: 290.7px;
+  height: 301.6px;
+  border: 0.3px solid rgb(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 16px;
+}
+.image {
+  border-radius: 16px 16px 0px 0px;
+}
+.more-img-con {
+  background-color: rgb(255, 255, 255, 1);
+}
+.more-img-info {
+  font-size: 15.3px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-1 {
+  margin-bottom: 19.17px;
+  width: 174px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 15.3;
+  border: none;
+  border-radius: 47.9px;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+
+  position: absolute;
+  top: 1892px;
+  right: 450px;
+}
+.btn-2 {
+  width: 174px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 15.3;
+  border: none;
+  border-radius: 47.9px;
+  color: white;
+  background-color: rgba(93, 88, 240, 1);
+
+  position: absolute;
+  top: 1892px;
+  right: 140px;
+}
+.btn-3 {
+  width: 179px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 15.3;
+  border: none;
+  border-radius: 47.9px;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+
+  position: absolute;
+  top: 2223px;
+  right: 450px;
+}
+.btn-4 {
+  width: 128px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 15.3;
+  border: none;
+  border-radius: 47.9px;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+
+  position: absolute;
+  top: 2223px;
+  right: 140px;
+}
+/* button */
+.btn-con {
+  display: flex;
+  justify-content: center;
+}
+.memo-btn {
+  height: 50px;
+  width: 197px;
+  border-radius: 12px;
+  color: rgb(255, 255, 255, 1);
+  background-color: rgb(0, 0, 0, 1);
+}
+
+/* footer */
 .blue {
   background-color: rgba(1, 172, 253, 1);
 }
@@ -248,4 +403,8 @@
   font-size: 20px;
   color: white;
   width: 399px;
+}
+.mar {
+  color: white;
+  font-size: 50px;
 }
