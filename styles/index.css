@@ -8,6 +8,8 @@
 }
 
 /* nav */
+
+/* navbar section */
  .navbar {
   display: flex;
   align-items: center;
@@ -65,6 +67,136 @@
   border: none;
   border-radius: 12px;
 }
+/* menu icon for mobile */
 .menu {
   display: none;
+}
+
+/* banner section */
+.banner {
+  margin-bottom: 60px;
+}
+.banner-con {
+  display: flex;
+  gap: 50px;
+}
+.banner-content {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-img {
+  grid-area: img;
+}
+.banner-t1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.banner-s1 {
+  color: orange;
+}
+.banner-s2 {
+  color: skyblue;
+}
+.banner-t2 {
+  color: black;
+  font-size: 20px;
+}
+.banner-btn {
+  width: 197px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  padding: 10px ;
+  border: none;
+  border-radius: 12px;
+}
+
+/* shared design */
+  .common-bg {
+    background-image: url('../assets/bg.png');
+  }
+/* main section */
+
+/* standard curriculum */
+.curi-text {
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  gap: 28px;
+  padding: 80px 0px;
+}
+.card1 {
+  background-image: linear-gradient(rgb(222, 245, 255), white, white, white);
+  border-radius: 18.8px;
+  padding: 52px 40px;
+  border: 0.9px solid rgb(222, 245, 255);
+}
+.card2 {
+  background-image: linear-gradient(rgba(255, 244, 220, 1), white, white, white);
+  border-radius: 18.8px;
+  padding: 52px 40px;
+  border: 0.9px solid rgba(255, 244, 220, 1);
+}
+.card3 {
+  background-image: linear-gradient(rgba(242, 232, 255, 1), white, white, white);
+  border-radius: 18.8px;
+  padding: 52px 40px;
+  border: 0.9px solid rgba(242, 232, 255, 1);
+}
+.card-title {
+  font-size: 24.52px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 33.5px;
+}
+.card-content {
+  font-size: 15.09px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(128, 128, 128, 1);
+  margin-bottom: 34px;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.bann-btn-con {
+  display: flex;
+  justify-content: center;
+}
+.btn1 {
+  width: 102px;
+  height: 28px;
+  color: rgba(100, 200, 255, 1);
+  background-color: transparent;
+  border: none;
+}
+.btn2 {
+  width: 102px;
+  height: 28px;
+  color: rgba(240, 170, 0, 1);
+  background-color: transparent;
+  border: none;
+}
+.btn3 {
+  width: 102px;
+  height: 28px;
+  color: rgba(135, 0, 255, 1);
+  background-color: transparent;
+  border: none;
+}
+.arrows {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.arrow-img {
+  width: 60px;
+  height: 60px;
 }
